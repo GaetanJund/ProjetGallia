@@ -90,7 +90,7 @@ h2{
     padding-top: 25px;
     margin-left: 15px;
     border-bottom: 2px solid #076239;
-    width: 228px;
+    width: 18.5%;
 }
 .last-actu{
     display: flex;
@@ -98,7 +98,7 @@ h2{
     text-align: left;
     flex-direction: row;
 }
-#actu{
+.actu{
     background-color: white;
     border-style: solid;
     border-color: white;
@@ -106,7 +106,7 @@ h2{
     box-shadow: 1px 1px 10px hsl(0, 2%, 74%);
     width: 350px;
 }
-#actu img{
+.actu img{
     height: 160px;
     width: 100%;
     border-radius: 10px 10px 0px 0px;
@@ -124,7 +124,10 @@ h3{
 }
 .matchs-sm1 h2{
     color: white;
-    width: 146px;
+    width: 11.7%;
+}
+.matchs-sm1 h3{
+    margin-left: 10px;
 }
 .last-match{
     display: flex;
@@ -136,10 +139,45 @@ h3{
     display: flex;
 }
 .annonce img{
-    height: 2px;
+    max-height: 180px;
 }
-#actu p{
+.actu p{
     text-align: center;
+}
+
+/* Matchs we */
+.matchs-we{
+    background-color: #e5e8e8;
+    margin-top: -20px;
+    padding-bottom: 50px;
+}
+.matchs-we h2{
+    width: 16%;
+}
+.matchs-we h3{
+    margin-left: 10px;
+}
+.we-matchs{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    flex-direction: row;
+}
+.domicile, .exterieur{
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 10px hsl(0, 2%, 74%);
+    width: 350px;
+}
+.matchs-we p{
+    text-align: center;
+}
+.matchs-equipe{
+    margin-top: -10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #076239;
 }
 
 /* Partenaires majeurs */
@@ -147,7 +185,7 @@ h3{
     padding-bottom: 30px;
 }
 .partenaires-majeurs h2{
-    width: 191px;
+    width: 15.3%;
 }
 .images-partenaires{
     display: flex;
@@ -159,7 +197,7 @@ h3{
     width: 20%;
 }
 article{
-    cursor: pointer;
+    cursor: auto;
 }
 
 /* Footer */
@@ -189,30 +227,59 @@ footer a{
     border-radius: 10px;
 }
 
+/* //////////////////////////////////////////// */
 /* Page équipe NM3 */
 .titre-nm3{
     text-align: center;
+    margin-left: 500px;
+    margin-bottom: 40px;
+}
+.photo-equipe-nm3{
+    text-align: center;
+    border-bottom: 5px solid black;
+    padding-bottom: 50px;
+}
+.photo-equipe-nm3 img{
+    height: 400px;
+    margin-top: 25px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 10px hsl(0, 2%, 74%);
+}
+.photo-equipe-nm3 h2{
+    text-align: center;
+    margin-left: 500px;
 }
 .effectif{
-    padding: 50px;
+    border-bottom: 5px solid black;
+    background-color: #e5e8e8;
+    margin-top: -20px;
+}
+.block-joueur{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: left;
     flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .joueur{
-    background-color: #e5e8e8;
-    border-radius: 10px 10px 10px 10px;
     width: 90%;
     height: 500px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
+    padding: 10px;
 }
 .joueur img{
     width: 100%;
     border-radius: 10px 10px 0px 0px;
+    box-shadow: 1px 1px 10px hsl(0, 2%, 74%);
 }
 .joueur-texte{
+    background-color: #f2f4f4;
     text-align: center;
+    margin-top: -4px;
+    padding-bottom: 4px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 1px 10px hsl(0, 2%, 74%);
 }
 .joueur-texte h3{
     font-size: 40px;
